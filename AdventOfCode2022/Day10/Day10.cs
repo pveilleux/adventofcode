@@ -58,8 +58,10 @@ internal class Day10
 
         if (firstTask)
         {
-            var sum = _RegisterHistoryValues.Where(r => r.Key == 20 || r.Key == 60 || r.Key == 100 || r.Key == 140 || r.Key == 180 || r.Key == 220).Select(r => r.Key * r.Value).Sum();
-            return sum;
+            return _RegisterHistoryValues
+                .Where(r => new List<int>() { 20, 60, 100, 140, 180, 220 }.Contains(r.Key))
+                .Select(r => r.Key * r.Value)
+                .Sum();
         }
         else
         {
