@@ -10,17 +10,18 @@ Console.WriteLine("");
 Console.WriteLine("Task 1");
 Console.WriteLine("-----------");
 Console.WriteLine("Test");
-Console.WriteLine(new Day10().GetResult("input-test.txt", true));
+Console.WriteLine(new Day11().GetResult("input-test.txt", true));
 Console.WriteLine("");
 Console.WriteLine("Final");
-Console.WriteLine(new Day10().GetResult("input-main.txt", true));
+Console.WriteLine(new Day11().GetResult("input-main.txt", true));
 
 Console.WriteLine("");
 Console.WriteLine("Task 2");
 Console.WriteLine("-----------");
 Console.WriteLine("Test");
-Console.WriteLine(new Day10().GetResult("input-test.txt", false));
+Console.WriteLine(new Day11().GetResult("input-test.txt", false));
 Console.WriteLine("");
 Console.WriteLine("Final");
-Console.WriteLine(new Day10().GetResult("input-main.txt", false));
+Console.WriteLine(new Day11().GetResult("input-main.txt", false));
+
 
